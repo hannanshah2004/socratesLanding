@@ -15,52 +15,6 @@ const features = [
   },
 ];
 
-const testimonials = [
-  {
-    name: "Ronald Richards",
-    location: "California, 4326N",
-    quote:
-      "Socrates made math feel possible. Now I ask for explanations until I *really* get it!",
-    avatar: "https://randomuser.me/api/portraits/men/32.jpg",
-  },
-  {
-    name: "Jenny Wilson",
-    location: "Kentucky, 79405",
-    quote:
-      "I upload my assignments and Socrates talks me through tricky questions—just like a patient tutor.",
-    avatar: "https://randomuser.me/api/portraits/women/44.jpg",
-  },
-  {
-    name: "Kathryn Murphy",
-    location: "Illinois, 85494",
-    quote:
-      "As a parent, I use Socrates to double-check my son’s science homework. It’s a lifesaver!",
-    avatar: "https://randomuser.me/api/portraits/women/64.jpg",
-  },
-];
-
-const supporters = [
-  {
-    name: "Bank of America",
-    logo: "https://ext.same-assets.com/1862555170/2040779133.svg",
-  },
-  {
-    name: "Bill & Melinda Gates Foundation",
-    logo: "https://ext.same-assets.com/1862555170/724815877.svg",
-  },
-  {
-    name: "Tata Trusts",
-    logo: "https://ext.same-assets.com/1862555170/142793590.svg",
-  },
-  {
-    name: "Valhalla Foundation",
-    logo: "https://ext.same-assets.com/1862555170/152785789.svg",
-  },
-  {
-    name: "Google.org",
-    logo: "https://ext.same-assets.com/1862555170/2922062747.svg",
-  },
-];
 
 export default function Home() {
   return (
