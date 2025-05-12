@@ -189,7 +189,6 @@ export default function Home() {
             <div className="text-muted-foreground text-xs font-medium uppercase mb-2">Learners</div>
             <h3 className="text-2xl md:text-3xl font-semibold">You can learn anything, anywhere.</h3>
             <p className="text-muted-foreground mb-3">From homework help to deep concepts, Socrates is ready for chat, file uploads, quizzes & direct feedback—so your learning is truly yours.</p>
-            <Button variant="outline" className="rounded-full btn-animated max-w-fit">Learners, start now</Button>
           </div>
         </div>
       </section>
