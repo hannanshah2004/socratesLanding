@@ -50,15 +50,15 @@ export default function Home() {
           <h2 className="text-3xl font-semibold text-center mb-2">Master any subject with Socrates</h2>
           <p className="text-muted-foreground text-center mb-6 max-w-lg">Get instant answers, clear explanations, and real-time feedback—no matter what you’re trying to learn or create.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full max-w-4xl">
-            <button className="feature-card p-4 rounded-xl bg-socrates-light-blue/100 flex flex-col gap-2 items-start">
+          <button className="feature-card p-4 rounded-xl bg-white flex flex-col gap-2 items-start border border-slate-200">
               <span className="font-medium text-lg">Math Help for All Ages</span>
               <span className="text-xs text-muted-foreground">Step-by-step reasoning, from the basics to advanced problems.</span>
             </button>
-            <button className="feature-card p-4 rounded-xl bg-socrates-light-blue/100 flex flex-col gap-2 items-start">
+            <button className="feature-card p-4 rounded-xl bg-white flex flex-col gap-2 items-start border border-slate-200">
               <span className="font-medium text-lg">High School & College Math</span>
               <span className="text-xs text-muted-foreground">Assistance with algebra, calculus, statistics, and beyond.</span>
             </button>
-            <button className="feature-card p-4 rounded-xl bg-socrates-light-blue/100 flex flex-col gap-2 items-start">
+            <button className="feature-card p-4 rounded-xl bg-white flex flex-col gap-2 items-start border border-slate-200">
               <span className="font-medium text-lg">Science & Engineering</span>
               <span className="text-xs text-muted-foreground">Understand concepts, solve problems, and explain experiments in plain language.</span>
             </button>
@@ -74,26 +74,6 @@ export default function Home() {
               <span className="font-medium text-lg">Computer Science & Coding</span>
               <span className="text-xs text-muted-foreground">Debug code, learn new languages, and break down technical topics interactively.</span>
             </button>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Socrates Works */}
-      <section className="w-full bg-socrates-light-blue/60 border-b section-padding" id="why-socrates">
-        <div className="container flex flex-col items-center gap-8">
-          <h2 className="text-3xl font-semibold text-center mb-6">
-            Why Socrates works
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-5xl">
-            {features.map(feat => (
-              <div
-                key={feat.title}
-                className="feature-card p-6 rounded-2xl bg-white flex flex-col items-center text-center shadow-sm min-h-[200px]"
-              >
-                <div className="text-lg font-semibold mb-2">{feat.title}</div>
-                <div className="text-sm text-muted-foreground">{feat.desc}</div>
-              </div>
-            ))}
           </div>
         </div>
       </section>
