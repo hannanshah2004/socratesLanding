@@ -1,20 +1,16 @@
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
 
 const features = [
   {
     title: "Personalized learning",
-    icon: "https://ext.same-assets.com/1862555170/1028662199.svg",
     desc: "Socrates adapts to every student’s pace, helping them find strengths, address gaps, and truly understand their learning.",
   },
   {
     title: "Trustworthy knowledge base",
-    icon: "https://ext.same-assets.com/1862555170/800971054.svg",
     desc: "Expert-curated explanations ensure accuracy. Socrates makes tough topics simple, with visual aids and step-by-step support.",
   },
   {
     title: "Empowers teachers & parents",
-    icon: "https://ext.same-assets.com/1862555170/3141890028.svg",
     desc: "Educators get concise summaries, assignment help, and deeper insights for every student—while parents can join in the learning journey.",
   },
 ];
@@ -140,11 +136,6 @@ export default function Home() {
                 key={feat.title}
                 className="feature-card p-6 rounded-2xl bg-white flex flex-col items-center text-center shadow-sm min-h-[200px]"
               >
-                <img
-                  className="mx-auto mb-4 h-12 w-12"
-                  src={feat.icon}
-                  alt=""
-                />
                 <div className="text-lg font-semibold mb-2">{feat.title}</div>
                 <div className="text-sm text-muted-foreground">{feat.desc}</div>
               </div>
@@ -193,45 +184,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="w-full py-12 md:py-20 border-b bg-white">
-        <div className="container flex flex-col items-center gap-6">
-          <div className="text-center">
-            <div className="uppercase text-xs font-semibold text-muted-foreground mb-1">Testimonial</div>
-            <h3 className="text-2xl md:text-3xl font-semibold">See What Our Students Say</h3>
-          </div>
-          <div className="grid gap-6 md:grid-cols-3 w-full max-w-5xl mt-6">
-            {testimonials.map((t, idx) => (
-              <div key={idx} className="feature-card p-6 rounded-2xl bg-socrates-light-blue/60 flex flex-col items-center text-center">
-                <img src={t.avatar} alt={t.name} className="h-14 w-14 rounded-full border-2 border-primary mb-3 object-cover" />
-                <blockquote className="italic text-md text-slate-700 mb-2">“{t.quote}”</blockquote>
-                <div className="font-semibold text-slate-900">{t.name}</div>
-                <div className="text-xs text-muted-foreground">{t.location}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Main CTA Section */}
       <section className="w-full section-padding bg-socrates-light-blue/80 border-b flex justify-center items-center">
         <div className="container flex flex-col items-center gap-4 text-center">
           <h3 className="text-2xl md:text-3xl font-semibold max-w-2xl">Join Socrates today and get a smarter AI learning assistant for every assignment, every classroom, every need.</h3>
           {/* CTA BUTTONS REMOVED */}
-        </div>
-      </section>
-
-      {/* Supporters Section */}
-      <section className="w-full bg-white py-8 md:py-14 border-b">
-        <div className="container flex flex-col items-center gap-1">
-          <div className="uppercase text-xs text-muted-foreground font-medium tracking-wide mb-2">Key Supporters</div>
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-8 my-3 items-center w-full max-w-3xl">
-            {supporters.map((sup) => (
-              <div key={sup.name} className="flex items-center justify-center">
-                <img src={sup.logo} alt={sup.name} className="max-h-8 object-contain grayscale opacity-80" />
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
