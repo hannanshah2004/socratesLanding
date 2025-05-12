@@ -34,7 +34,7 @@ export default function Home() {
           </div>
           <div className="flex-1 flex justify-center items-center mt-8 md:mt-0">
             <Image
-              src="https://ext.same-assets.com/1862555170/210331791.png"
+              src="/socrates.jpg"
               alt="Socrates AI assistant illustration"
               width={400}
               height={320}
@@ -88,7 +88,7 @@ export default function Home() {
           </div>
           <div className="flex justify-center items-center">
             <Image
-              src="https://ext.same-assets.com/1862555170/210331791.png"
+              src="/teachers.jpg"
               alt="Socrates class for teachers"
               width={330}
               height={260}
