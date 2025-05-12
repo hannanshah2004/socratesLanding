@@ -98,34 +98,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Learn Anything Section */}
-      <section className="w-full section-padding border-b bg-socrates-light-blue/40">
-        <div className="container grid md:grid-cols-2 items-center gap-10">
-          <div className="flex justify-center md:justify-end">
-            <Image
-              src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&w=400&q=80"
-              alt="Student avatar"
-              width={190}
-              height={210}
-              className="rounded-2xl drop-shadow-xl"
-            />
-          </div>
-          <div className="flex flex-col gap-3 md:gap-6">
-            <div className="text-muted-foreground text-xs font-medium uppercase mb-2">Learners</div>
-            <h3 className="text-2xl md:text-3xl font-semibold">You can learn anything, anywhere.</h3>
-            <p className="text-muted-foreground mb-3">From homework help to deep concepts, Socrates is ready for chat, file uploads, quizzes & direct feedback—so your learning is truly yours.</p>
-          </div>
-        </div>
-      </section>
-
-      {/* Main CTA Section */}
-      <section className="w-full section-padding bg-socrates-light-blue/80 border-b flex justify-center items-center">
-        <div className="container flex flex-col items-center gap-4 text-center">
-          <h3 className="text-2xl md:text-3xl font-semibold max-w-2xl">Join Socrates today and get a smarter AI learning assistant for every assignment, every classroom, every need.</h3>
-          {/* CTA BUTTONS REMOVED */}
-        </div>
-      </section>
-
       {/* Footer */}
       <footer className="w-full bg-primary text-primary-foreground py-8 px-4">
         <div className="text-sm text-primary-foreground/70 text-center">Copyright © {new Date().getFullYear()} Socrates | All Rights Reserved</div>
